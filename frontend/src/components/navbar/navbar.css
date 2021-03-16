@@ -1,0 +1,100 @@
+/* ---------------SEARCHBAR-------------------- */
+.page__form {
+  width: 100%;
+  min-width: 200px;
+  z-index: 2;
+}
+
+.page__search__form {
+  width: 100%;
+}
+
+.page__search__input__area {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.page__form-submit {
+  visibility: hidden;
+  position: absolute;
+}
+
+.page__form-input {
+  font-size: 25px;
+  width: 700px;
+  line-height: normal;
+  font-weight: 400;
+  padding: 0 12px 0 55px;
+  line-height: 14px;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIG9wYWNpdHk9Jy40JyB3aWR0aD0nMzEnIGhlaWdodD0nMzEnIHZpZXdCb3g9JzAgMCAxNCAxNCc+PHBhdGggZmlsbD0nI0ZGRicgZmlsbC1ydWxlPSdldmVub2RkJyBkPSdNOS4yMDIgMy4wMjZhNC4zNjcgNC4zNjcgMCAxMC02LjE3NiA2LjE3NiA0LjM2NyA0LjM2NyAwIDEwNi4xNzYtNi4xNzZtNC41NDMgMTAuNzE5YS44NzUuODc1IDAgMDEtMS4yMzYgMGwtMi43NTEtMi43NTJjLTIuMzk1IDEuNzktNS43OTEgMS42MjEtNy45NjctLjU1NWE2LjExMyA2LjExMyAwIDAxMC04LjY0NyA2LjExMyA2LjExMyAwIDAxOC42NDcgMGMyLjE3NiAyLjE3NiAyLjM0NiA1LjU3Mi41NTUgNy45NjdsMi43NTIgMi43NTFjLjM0LjM0MS4zNC44OTQgMCAxLjIzNicvPjwvc3ZnPg==")
+    no-repeat scroll 16px;
+  background-size: 25px;
+  color: #5d5d5a;
+  background-color: #ffcdab;
+  border-radius: 47px;
+  border: 0px;
+  height: 66px;
+  transition: color 0.3s, background-color, opacity, 0.3s;
+}
+
+.page__form-input:focus {
+  height: 77px;
+  font-weight: 900;
+  box-shadow: 5px 5px #fff4e3;
+}
+
+/* -------------------------------------------- */
+.page__header {
+  z-index: 10;
+  width: 100%;
+  flex-grow: 0;
+}
+
+.header__searchbar-item {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 97px;
+  align-items: center;
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.header-logo {
+  padding-top: 1px;
+  border-bottom-color: transparent !important;
+  transition: 0.23s;
+}
+
+
+.header__item-link {
+  font-size: 14px;
+  line-height: normal;
+  position: relative;
+  font-weight: 500;
+  color: #ffcdab;
+  white-space: nowrap;
+}
+
+.logo {
+  position: relative;
+  font-size: 72px;
+  font-weight: 550;
+  line-height: 1;
+  letter-spacing: 5px;
+  transition: 0.3s;
+}
+
+.logo:hover {
+    text-shadow: 2px 2px #fff4e3;
+}

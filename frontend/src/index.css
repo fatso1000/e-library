@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap");
+
+/* --------------SCROLLBAR-------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5D5D5A;
+}
+
+/* --------------BODY----------------------- */
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #5d5d5a;
+  background-size: 100%;
+  color: #ffcdab;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
